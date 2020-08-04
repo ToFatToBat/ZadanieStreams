@@ -11,6 +11,7 @@ public class FilteringMachine {
                 .filter(this::isNotEven)
                 .collect(Collectors.toList());
         return notEvenNumbers;
+
     }
 
     public List<Integer> filterOutLowerNumbersThan20(List<Integer> numberList) {
