@@ -1,5 +1,6 @@
 package pl.javastart.exercise.streams;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class FilteringMachineTwo {
@@ -9,7 +10,7 @@ public class FilteringMachineTwo {
 
 
 
-        return null;
+        return new ArrayList<>();
     }
 
     public List<User> convertPeopleToUsers(List<Person> people) {
