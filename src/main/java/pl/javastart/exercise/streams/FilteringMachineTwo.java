@@ -28,7 +28,7 @@ public class FilteringMachineTwo {
     }
 
     private User convertPersonToUser (Person person) {
-        User user = new User(person.getName(), person.getAge(), null);
+        User user = new User(person.getName(), person.getAge(), String.valueOf(person.getName() + "_" + person.getAge()));
         return user;
     }
 }
