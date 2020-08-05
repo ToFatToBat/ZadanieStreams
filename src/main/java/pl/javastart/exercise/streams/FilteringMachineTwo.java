@@ -9,7 +9,6 @@ public class FilteringMachineTwo {
 
 
 
-
         return null;
     }
 
